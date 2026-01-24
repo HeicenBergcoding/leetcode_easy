@@ -1,3 +1,3 @@
-nums = [1,2,3]
-result = [0]* len(nums)
-print(result)
+nums = [1,2,1,3]
+for n in nums.sort():
+    print(n)
